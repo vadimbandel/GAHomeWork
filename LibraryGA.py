@@ -1,7 +1,7 @@
 from pyeasyga import pyeasyga
 import ReadFromFile
-# решение на основе: http://pythonhosted.org/pyeasyga/examples.html#multi-dimensional-knapsack-problem
 
+# решение на основе: http://pythonhosted.org/pyeasyga/examples.html#multi-dimensional-knapsack-problem
 ga = pyeasyga.GeneticAlgorithm(ReadFromFile.inputData)  # initialise the GA with data
 
 

@@ -20,7 +20,6 @@ def MakeFormat(answer):
         'items': items
     }
 
-
 answer = {
     '1': MakeFormat(LibraryGA.GetLibraryResult()),
     '2': MakeFormat(MyGA.GetMyResult())
